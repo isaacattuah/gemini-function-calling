@@ -23,7 +23,7 @@ Here's what you need to do:
 
 3. Clone the repository:
 ```
-git clone https://github.com/your-username/gemini_api_interaction.git
+git clone https://github.com/isaacattuah/gemini-function-calling
 ```
 
 4. Open the Jupyter Notebook:
