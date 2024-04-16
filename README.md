@@ -12,19 +12,32 @@ This repository demonstrates how to interact with external APIs using function c
 * A detailed example of using the Frankfurter API for currency conversion.
   
 ## Getting Started
-1. Clone the repository:
+
+Please note that this project requires a Google Cloud Platform (GCP) account to access and utilize the Gemini language model. This is because Gemini is currently offered as a managed service through Vertex AI, which is part of the Google Cloud platform.
+
+Here's what you need to do:
+
+1. Create a GCP Account: If you don't already have one, sign up for a free trial or create a new account on the [Google Cloud Platform website](https://cloud.google.com/?hl=en).
+   
+2. Enable Vertex AI API: Once you have a GCP account, you'll need to enable the Vertex AI API for your project. Instructions on how to do this can be found in the [Vertex AI documentation](https://cloud.google.com/vertex-ai/docs/start/cloud-environment).
+
+3. Clone the repository:
 ```
 git clone https://github.com/your-username/gemini_api_interaction.git
 ```
-2. Open the Jupyter Notebook:
+
+4. Open the Jupyter Notebook:
 Open `gemini_api_examples.ipynb` in Jupyter Notebook or Google Colab.
 
-3. Follow the instructions:
+5. Follow the instructions:
 The notebook provides step-by-step explanations and code examples to guide you through the process of interacting with APIs using Gemini.
+
+Note: 
 
 ## Requirements
 * Python 3.7 or higher
 * Jupyter Notebook or Google Colab
+* Google Cloud Account
 * Required Python libraries (specified in the notebook)
 
 ## Key Learnings
